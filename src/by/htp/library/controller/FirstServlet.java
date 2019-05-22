@@ -28,14 +28,11 @@ public class FirstServlet extends HttpServlet {
 
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		String action = request.getParameter("action");
-		
+		doPost(request, response);
 	}
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
 		String action = request.getParameter(REQ_ACTION);
 		Command command = CommandManager.defineCommand(action);
 		String value = command.performAction(request);
@@ -48,8 +45,5 @@ public class FirstServlet extends HttpServlet {
 			command = CommandManager.defineCommand(action);
 		}
 		request.getRequestDispatcher(value).forward(request,response);
-		
-		doGet(request, response);
 	}
-
 }

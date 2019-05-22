@@ -24,7 +24,7 @@ public class ViewBook implements Command {
 			Book book = service.getSingleCatalogBook(1);
 			request.setAttribute("Book", book);
 		
-		return null;
+		return "/pages/single_book.jsp";
 	}
 
 }

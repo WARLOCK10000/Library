@@ -14,17 +14,15 @@ public class OnlineLibraryServiceImpl implements LibraryService {
 
 	@Override
 	public Catalog getItemsCatalog() {
-
 		bookDao = new MySQLBookDaoImpl();
 		List<Book> books = bookDao.listBooks();
 		Catalog catalog = new Catalog();
 		catalog.setBooks(books);
-		return null;
+		return catalog;
 	}
 
 	public Book getSingleCatalogBook(int id) {
 		bookDao = new MySQLBookDaoImpl();
-		Book book = bookDao.readBook(id);
-		return book;
+		return bookDao.readBook(id);
 	}
 }

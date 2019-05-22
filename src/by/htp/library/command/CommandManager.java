@@ -8,7 +8,6 @@ import by.htp.library.command.impl.ViewBookList;
 public class CommandManager {
 
 	public static Command defineCommand(String action) {
-
 		switch (action) {
 		case "book_list":
 			return new ViewBookList();
@@ -18,11 +17,8 @@ public class CommandManager {
 			return new SaveBook();
 		case "view_book":
 			return new ViewBook();
-			
 		default:
-			return null;
-
+			throw new UnsupportedOperationException(); // TODO: 23.05.2019 add exceptional case(rewrite later)
 		}
-
 	}
 }
