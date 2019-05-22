@@ -1,4 +1,4 @@
-package by.htp.webapp.entity;
+package by.htp.library.entity;
 
 public class Author {
 

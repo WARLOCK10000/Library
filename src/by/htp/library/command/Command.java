@@ -1,4 +1,4 @@
-package by.htp.webapp.controller.command;
+package by.htp.library.command;
 
 import javax.servlet.http.HttpServletRequest;
 

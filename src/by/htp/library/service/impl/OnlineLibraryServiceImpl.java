@@ -1,12 +1,12 @@
-package by.htp.webapp.service.impl;
+package by.htp.library.service.impl;
 
 import java.util.List;
 
-import by.htp.webapp.dao.BookDao;
-import by.htp.webapp.dao.database.MySQLBookDaoImpl;
-import by.htp.webapp.service.LibraryService;
-import by.htp.webapp.service.dto.Catalog;
-import by.htp.webapp.entity.Book;
+import by.htp.library.dao.BookDao;
+import by.htp.library.dao.database.MySQLBookDaoImpl;
+import by.htp.library.service.LibraryService;
+import by.htp.library.service.dto.Catalog;
+import by.htp.library.entity.Book;
 
 public class OnlineLibraryServiceImpl implements LibraryService {
 

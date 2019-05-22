@@ -3,7 +3,7 @@ package by.htp.library.storage;
 import java.util.ArrayList;
 import java.util.List;
 
-import by.htp.webapp.entity.Author;
+import by.htp.library.entity.Author;
 
 public class AuthorMemoryStorage {
 	private List<Author> authors;

@@ -1,17 +1,14 @@
-package by.htp.webapp.controller.command.impl;
+package by.htp.library.command.impl;
 
-import by.htp.webapp.service.impl.OnlineLibraryServiceImpl;
-
-import java.util.ArrayList;
-import java.util.List;
+import by.htp.library.service.impl.OnlineLibraryServiceImpl;
 
 import javax.servlet.http.HttpServletRequest;
 
 
 
-import by.htp.webapp.controller.command.Command;
-import by.htp.webapp.service.LibraryService;
-import by.htp.webapp.service.dto.Catalog;
+import by.htp.library.command.Command;
+import by.htp.library.service.LibraryService;
+import by.htp.library.service.dto.Catalog;
 
 public class ViewBookList implements Command {
 	

@@ -1,11 +1,11 @@
-package by.htp.webapp.controller.command.impl;
+package by.htp.library.command.impl;
 
 import javax.servlet.http.HttpServletRequest;
 
-import by.htp.webapp.controller.command.Command;
-import by.htp.webapp.entity.Book;
-import by.htp.webapp.service.LibraryService;
-import by.htp.webapp.service.impl.OnlineLibraryServiceImpl;
+import by.htp.library.command.Command;
+import by.htp.library.entity.Book;
+import by.htp.library.service.LibraryService;
+import by.htp.library.service.impl.OnlineLibraryServiceImpl;
 
 public class ViewBook implements Command {
 

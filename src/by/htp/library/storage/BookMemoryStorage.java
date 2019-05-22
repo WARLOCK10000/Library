@@ -3,7 +3,7 @@ package by.htp.library.storage;
 import java.util.ArrayList;
 import java.util.List;
 
-import by.htp.webapp.entity.Book;
+import by.htp.library.entity.Book;
 
 public class BookMemoryStorage {
 

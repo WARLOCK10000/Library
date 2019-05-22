@@ -1,4 +1,4 @@
-package by.htp.webapp.dao.database;
+package by.htp.library.dao.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,10 +9,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.mysql.cj.jdbc.Driver;
-
-import by.htp.webapp.dao.BookDao;
-import by.htp.webapp.entity.Book;;
+import by.htp.library.dao.BookDao;
+import by.htp.library.entity.Book;;
 
 public class MySQLBookDaoImpl implements BookDao {
 
@@ -69,14 +67,13 @@ public class MySQLBookDaoImpl implements BookDao {
 				ResultSet rs = ps.executeQuery(SQL_SELECT_BOOKS);
 
 				if (rs.next()) {
-					
+
 					int book_id = rs.getInt("id");
 					String book_title = rs.getString("title");
 
 					book.setId(book_id);
 					book.setTitle(book_title);
 
-					
 				}
 
 			}
@@ -84,7 +81,7 @@ public class MySQLBookDaoImpl implements BookDao {
 			e.printStackTrace();
 
 		}
-		return null;
+		return book;
 	}
 
 }

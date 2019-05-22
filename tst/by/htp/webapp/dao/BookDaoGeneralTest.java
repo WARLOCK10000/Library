@@ -1,4 +1,4 @@
-package by.htp.webapp.dao;
+package by.htp.library.dao;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import by.htp.webapp.dao.database.MySQLBookDaoImpl;
-import by.htp.webapp.entity.Book;
+import by.htp.library.dao.database.MySQLBookDaoImpl;
+import by.htp.library.entity.Book;
 
 public class BookDaoGeneralTest {
 

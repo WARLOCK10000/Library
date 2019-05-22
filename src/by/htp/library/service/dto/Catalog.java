@@ -1,9 +1,9 @@
-package by.htp.webapp.service.dto;
+package by.htp.library.service.dto;
 
 import java.util.List;
 
-import by.htp.webapp.entity.Author;
-import by.htp.webapp.entity.Book;
+import by.htp.library.entity.Author;
+import by.htp.library.entity.Book;
 
 public class Catalog {
 

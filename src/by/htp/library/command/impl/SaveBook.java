@@ -1,8 +1,8 @@
-package by.htp.webapp.controller.command.impl;
+package by.htp.library.command.impl;
 
 import javax.servlet.http.HttpServletRequest;
 
-import by.htp.webapp.controller.command.Command;
+import by.htp.library.command.Command;
 
 public class SaveBook implements Command {
 

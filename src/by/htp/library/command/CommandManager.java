@@ -1,9 +1,9 @@
-package by.htp.webapp.controller.command;
+package by.htp.library.command;
 
-import by.htp.webapp.controller.command.impl.AddBookAction;
-import by.htp.webapp.controller.command.impl.SaveBook;
-import by.htp.webapp.controller.command.impl.ViewBook;
-import by.htp.webapp.controller.command.impl.ViewBookList;
+import by.htp.library.command.impl.AddBookAction;
+import by.htp.library.command.impl.SaveBook;
+import by.htp.library.command.impl.ViewBook;
+import by.htp.library.command.impl.ViewBookList;
 
 public class CommandManager {
 
