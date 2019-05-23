@@ -5,7 +5,7 @@ import by.htp.library.service.dto.Catalog;
 
 public interface LibraryService {
 
-	Catalog getItemsCatalog();
+    Catalog getItemsCatalog();
 
-	Book getSingleCatalogBook(int id);
+    Book getSingleCatalogBook(int id);
 }

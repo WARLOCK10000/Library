@@ -1,13 +1,13 @@
 package by.htp.library.dao;
 
-import java.util.List;
-
 import by.htp.library.entity.Book;
+
+import java.util.List;
 
 public interface BookDao {
 
-	List<Book> listBooks();
+    List<Book> listBooks();
 
-	Book readBook(int id);
+    Book readBook(int id);
 
 }
